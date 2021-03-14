@@ -1,7 +1,9 @@
 # installPiOLED
-Install the Adafruit PiOLED 128x32 Monochrome OLED driver (3527)
+Install the Adafruit PiOLED 128x64 Monochrome OLED driver (3527)
 
 Original article on JetsonHacks: https://wp.me/p7ZgI9-33H
+
+Tutorial for setting up adafruit hardware on jetson: https://learn.adafruit.com/circuitpython-libraries-on-linux-and-the-nvidia-jetson-nano/initial-setup
 
 The Adafruit PiOLED is a handy little display that connects to the Jetson Nano GPIO header. The display communicates with the Jetson over I2C, and is powered via the GPIO pins.
 
