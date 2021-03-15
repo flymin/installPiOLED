@@ -5,6 +5,10 @@ Original article on JetsonHacks: https://wp.me/p7ZgI9-33H
 
 Tutorial for setting up adafruit hardware on jetson: https://learn.adafruit.com/circuitpython-libraries-on-linux-and-the-nvidia-jetson-nano/initial-setup
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/28671430/111093330-94da4d80-8573-11eb-95d4-fbe09ea704a1.jpg" width="300" />
+</p>
+
 The Adafruit PiOLED is a handy little display that connects to the Jetson Nano GPIO header. The display communicates with the Jetson over I2C, and is powered via the GPIO pins.
 
 There are two scripts here, along with an file which displays information on the display. The file is pioled/stats.py. Gernerally you will modify the stats.py file to meet your needs. The default is to show the eth0 address, an updating GPU usage bar graph, memory usage and disk usage.
